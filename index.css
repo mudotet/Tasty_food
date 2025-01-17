@@ -1,0 +1,133 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+section{
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.intro-container{
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.about-container{
+    display: flex;
+    margin-bottom: 10px;
+        text-align: center;
+    justify-content: center;
+    align-items: center; 
+
+}
+.app-container{
+    display: flex;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+.menu-container{
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+.services-container{
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+.contact-container{
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+.contact-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+.footer-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+.intro-img{
+    width: 280px;
+    height: 283.469px;
+    margin: 11.406px 53.203px 11.406px 53.203px;
+}
+.about-img{
+    width: 280px;
+    height: 283.469px;
+    margin: 11.406px 53.203px 11.406px 53.203px;
+}
+.menu-img{
+    width: 70px;
+    height: 70px;
+}
+.services-img{
+    width: 200px;
+    height: 200px;
+}
+.services{
+    display: flex;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+@media (max-width: 768px) {
+    .intro-container, .about-container, .services-container, .menu-container, .app-container, .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-img, .about-img, .services-img, .menu-img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .services, .menu {
+        flex-direction: column;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-container, .about-container, .services-container, .menu-container, .app-container, .contact-container {
+        padding: 10px;
+    }
+
+    .intro-img, .about-img, .services-img, .menu-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
